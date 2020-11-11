@@ -1,2 +1,2 @@
-# M8Firmware
+# M8 Firmware
 M8 Precompiled Firmware
