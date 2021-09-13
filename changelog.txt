@@ -1,3 +1,8 @@
+2021-09-13 - Version 2.0.6
+- Fixed: Sample editor - "PASTED INSTRUMENT" odd behavior/issue and showing the temp file as the sample name when exiting.
+- Fixed: Randomize instrumnet results in wrong note pitch
+- Fixed: Headless "CPU TOO BUSY" message from Version 2.0.5
+
 2021-08-23 - Version 2.0.5
 - Removed MIDI TRS type selection from MIDI settings
 - Added secret headphone protection disable option via file
