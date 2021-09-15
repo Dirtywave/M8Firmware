@@ -1,6 +1,6 @@
 2021-09-13 - Version 2.0.6
 - Fixed: Sample editor - "PASTED INSTRUMENT" odd behavior/issue and showing the temp file as the sample name when exiting.
-- Fixed: Randomize instrumnet results in wrong note pitch
+- Fixed: Randomize instrument results in wrong note pitch
 - Fixed: Headless "CPU TOO BUSY" message from Version 2.0.5
 
 2021-08-23 - Version 2.0.5
@@ -72,7 +72,7 @@
 - New: Groove screen help messages
 - New: Project global transpose now has help message 
 - New: MIDI mapping help message when assigning and clearing MIDI mappings
-- New: Delete/cut [OPT+EDIT] no longer clears midi mapping unless the parameter is set to it's defualt value
+- New: Delete/cut [OPT+EDIT] no longer clears midi mapping unless the parameter is set to it's default value
 - New: Song screen selection mode edit actions (EDIT+UP/DOWN to push/collapse empty spaces) 
 - Fix: Macrosynth Hard crash fix
 - Fix: Sample playback hard crash fix on hardware 
@@ -260,7 +260,7 @@
 - Fix: Fast Instrument naming could insert invalid characters
 - Fix: Playhead ">" occasionally being displayed on Mixer screen
 - Fix: VU Meters were not accounting for negative bias.
-- Fix: MIDI Out Transport send was not working when MIDI out sync was disabed
+- Fix: MIDI Out Transport send was not working when MIDI out sync was disabled
 - Fix: While Mute/Solo was activated, INPUT mixing changes were ignored 
 - Fix: MIDI Input sync was offset depending on source's tempo
 
