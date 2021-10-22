@@ -1,9 +1,9 @@
--= Temporary Instructions for M8 Limited edition owners =-
+-= Temporary Instructions for M8 Production and Beta unit owners =-
 
 For Windows 7 Only - Download and install Teensyduino to install the USB driver needed for flashing M8 firmware:
 https://www.pjrc.com/teensy/td_download.html
 
-Windows (7/8/10) and OSX:
+Windows (7/8/10) and MacOS:
 Download & Install TyTools:
 https://github.com/Koromix/tytools/releases
 
