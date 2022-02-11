@@ -404,7 +404,7 @@
 - Fix: Fast Instrument naming could insert invalid characters
 - Fix: Playhead ">" occasionally being displayed on Mixer screen
 - Fix: VU Meters were not accounting for negative bias.
-- Fix: MIDI Out Transport send was not working when MIDI out sync was disabed
+- Fix: MIDI Out Transport send was not working when MIDI out sync was disabled
 - Fix: While Mute/Solo was activated, INPUT mixing changes were ignored 
 - Fix: MIDI Input sync was offset depending on source's tempo
 
