@@ -1,5 +1,6 @@
 2023-06-04 - Version 3.1.1
 - Fix: Midiout program change sent erroneous or frequent messages
+- Fix: Big font note insert issue while holding and releasing shift
 
 2023-06-01 - Version 3.1.0
 - New: Big font option for M8 hardware accessible in Theme view under font options
