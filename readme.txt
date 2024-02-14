@@ -1,6 +1,6 @@
 -= Current Instructions for M8 Production and Beta unit owners =-
 
-Windows (7/8/10/11) and MacOS:
+Windows (7/8/10/11), MacOS, and Linux:
 Download & Install TyTools:
 https://github.com/Koromix/tytools/releases
 
@@ -9,6 +9,7 @@ https://github.com/Koromix/tytools/releases
 3. Turn M8 on.
 4. Close all other applications
 5. Open "TyUploader" (previously called "TyUpdater" in old versions) - Note: "TyCommander" was also installed, don't use that.
+  - Run as root using `sudo tyuploader` on Linux, if you run into udev issues
 6. Make sure "M8 [xxxxxxxx]" is selected in the dropdown if you have other Teensy devices plugged into your computer.
 7. Click "Upload" select the .hex file from this zip file.
 
