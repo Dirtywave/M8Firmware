@@ -1,3 +1,6 @@
+2024-06-23 - Version 3.3.2A
+Fix: Bigfont mode easteregg-mode issue with mixer screen
+
 2024-06-22 - Version 3.3.3
 Improved: Drawing waveform oscilloscope optimizations (including easter-egg on Model:02)
 Improved: When in MIDI sync receive mode, display a "WAITING FOR SYNC" message when there is no incoming sync
