@@ -1,3 +1,8 @@
+
+2025-02-25 - Version 5.0.0A
+- Fix: Phrase - Editing FX commands via EDIT+LEFT or RIGHT did not progress FX commands correctly
+- Fix: Sample Editor - saving a recording may have some audio artifacts under certain conditions
+
 2025-02-24 - Version 5.0.0
 - New: Samples can be played back while recording audio
 - New: Scope view limiter settings - Tap [EDIT] or [SHIFT]+[RIGHT] on "LIM" or "MIX" in Mixer to enter view and adjust limiter settings
