@@ -1,3 +1,15 @@
+2025-10-28 - Version 6.2.2
+- Fix: Internal MIDI CC automation to EQ parameters could cause a corrupt SD card folder when saving song during playback
+- Fix: OTT's multiband EQ was always applied to the mix even if OTT was set to 00
+- Fix: Sampler - Process:Slice did not go to 128 slices as an option (stopped at 127)
+- Fix: PSL FX command (Pitch slide) did not work when sliding from C-1
+- Fix: Table TIC Note/Velocity/Octave modes disabled ARP command's note pitch
+- Fix: Rendering song with RMX could result in extra silence at the end of the rendering
+- Fix: Table command with table hop on a table with TICFF and retrig in table could cause crash
+- Fix: Rendering stems with NXT (Play instrument on next track) did not stop notes
+- Fix: "Clear unused" instruments did not clear correctly with RNL (randomized) instrument command
+- Fix: Typo in FX help for TIC command
+
 2025-09-22 - Version 6.2.1
 - Fix: Playback - DJF Type and Res were not recalled correctly on song start
 - Fix: Sampler - Single cycle samples without loop markers could have artifacts when used with filter
