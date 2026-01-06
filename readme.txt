@@ -1,17 +1,20 @@
--= Current Instructions for M8 Production and Beta unit owners =-
+----------------------------------------------------------------------------------
+FIRMWARE UPDATE INSTRUCTIONS
+----------------------------------------------------------------------------------
 
 Windows (7/8/10/11) and MacOS:
-Download & Install TyTools:
+Download & Install TyTools (Note for Mac: Move it to the Applications folder):
 https://github.com/Koromix/tytools/releases
 
 1. Unzip the Firmware. (Yay you did this!)
 2. Plug in M8 via USB DO NOT USE A USB HUB IF IT CAN BE AVOIDED
 3. Turn M8 on.
 4. Close all other applications
-5. Open "TyUploader" (previously called "TyUpdater" in old versions) - Note: "TyCommander" was also installed, don't use that.
-6. Make sure "M8 [xxxxxxxx]" is selected in the dropdown if you have other Teensy devices plugged into your computer.
+5. Open "TyUploader" - Note: "TyCommander" was also installed, don't use that.
+6. Make sure "M8 [xxxxxxxx]" is selected in the dropdown.
 7. Click "Upload" select the correct model hex file from this zip.
 
 
-Note for Windows 7 - Download and install Teensyduino to install the USB driver needed for flashing M8 firmware:
+Note for Windows 7 - Download and install Teensyduino to install the USB 
+driver needed for flashing M8 firmware:
 https://www.pjrc.com/teensy/td_download.html
