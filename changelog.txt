@@ -1,13 +1,42 @@
+2026-08-19 - Version 6.6.0
+- New: EQ View - Spectrum 
+- New: Firmware Update - Flash firmware from SD card via System Settings (Works on version 6.6 and up)
+- New: Battery fuel gauge remains active on power off for more accurate battery % during use
+- New: ModFX Comb filter type
+- New: Backend rework to free up some RAM for the future
+- New: Hypersynth - Shape parameter (SAW, SOFT SAW, DARK SAW, SQUARE SOFT, TRIANGLE, SINE, SINE 3X, SINE FB, SINE FOLD, SINE RING, SINE HALF, SINE ORGAN)
+- New: Song View - Press LEFT twice on track 1 to select the whole row (PLAY cues the row, [EDIT]+[UP or DOWN] moves the row and its bookmarks)
+- New: Song View - Row bookmarks: in row-select mode, [OPT]+[LEFT or RIGHT] or [EDIT]+[LEFT or RIGHT] cycles theme colors and options, [OPT+EDIT] clears
+- Improved: Hypersynth - Sub osc interpolation
+- Improved: MIDI Mapping - A message is displayed when all mapping slots are used
+- Improved: ADSR ENV - Same-instrument retrigger resumes attack from the current envelope level
+- Fix: Table - Note map (TIC:FE) and Octave map (TIC:FC) retriggered when volume was changed in a phrase or TBX (Aux table)
+- Fix: Table - Velocity map (TIC:FD) retriggered on note changes instead of only velocity changes
+- Fix: Render - Excessive TPO tempo changes did not line up correctly with DAW tempo
+- Fix: Render - Quick render length could be slightly incorrect
+- Fix: Render - Quick render initial transient was messy when OTT was enabled
+- Fix: Instrument Pool - Moving instruments did not update MIDI Settings instrument numbers for MIDI track channels
+- Fix: Effect Settings - EDIT+OPT on EQ reset the parameter above EQ
+- Fix: MIDI input on track channel - Table's first row could trigger incorrectly
+- Fix: MIDI input on track channel - Hang / stuck note if the instrument uses the INS command in its table
+- Fix: Recording - Count in caused track 1's volume to be incorrect
+- Fix: MIDI Instrument - ADSR envelope mapped to a CC did not enter release on the OFF command
+- Fix: Phrase - RNL next to HOP could randomize other FX on the hop destination row
+- Fix: RMX - Queued song position (blinking cursor) on affected tracks was not cleared
+- Fix: File date advances to the firmware build time when the stored clock is older
+- Fix: Phrase - Velocity-only random FILL could not be undone with paste
+- Fix: Phrase "^^" REP indication was cleared by RTO even though RTO does not stop REP
+
 2026-04-13 - Version 6.5.2 C
-Fix: Sample Editor: Sampling line-in right did not work correctly 
+- Fix: Sample Editor: Sampling line-in right did not work correctly 
 
 2026-04-06 - Version 6.5.2 B
-Fix: M8C for iOS was broken
-Fix: Instrument Pool - After moving an instrument and deleting it, it cleared the wrong instrument
+- Fix: M8C for iOS was broken
+- Fix: Instrument Pool - After moving an instrument and deleting it, it cleared the wrong instrument
 
 2026-04-05 - Version 6.5.2 A
-Fix: MIDI note input & poly mode - MIDI notes not triggering when using ADSR/Drum envelope on occasion
-Fix: MIDI sending clock sync issues on queued song loading
+- Fix: MIDI note input & poly mode - MIDI notes not triggering when using ADSR/Drum envelope on occasion
+- Fix: MIDI sending clock sync issues on queued song loading
 
 2026-04-01 - Version 6.5.2
 - Improved: Reverb Shimmer effect audio quality improvements - less gritty
