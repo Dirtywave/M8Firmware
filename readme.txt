@@ -7,7 +7,8 @@ SD CARD (Version 6.6 and above):
 Already on 6.6 or newer. If not, use USB below first.
 
 1. Unzip the Firmware. (Yay you did this!)
-2. Copy the correct model .bin file to anywhere on the microSD card.
+2. Copy the correct model .bin file from Firmware/Model01 or Firmware/Model02
+   to anywhere on the microSD card.
    USB-DRIVE from PROJECT, or take the card out and copy it over.
 3. Exit USB-DRIVE if you used it.
 4. PROJECT > SYSTEM SETTINGS > FIRMWARE UPDATE
@@ -31,7 +32,8 @@ https://github.com/Koromix/tytools/releases
 4. Close all other applications
 5. Open "TyUploader" - Note: "TyCommander" was also installed, don't use that.
 6. Make sure "M8 [xxxxxxxx]" is selected in the dropdown.
-7. Click "Upload" select the correct model (TyUploader).hex file from this zip.
+7. Click "Upload" select the correct model (TyUploader).hex file
+   from Firmware/Model01 or Firmware/Model02.
 
 
 Note for Windows 7 - Download and install Teensyduino to install the USB 
