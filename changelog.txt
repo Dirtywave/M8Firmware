@@ -1,3 +1,14 @@
+2026-08-22 - Version 6.6.2
+- Fix: ARP retriggered an instrument that had already been turned off with KILL/OFF
+- Fix: Sampler - STA on the same row as an instrument trigger did not restart envelopes
+- Fix: Firmware Update - Settings and project autosave are written after confirming, before restart
+- Fix: Mute/solo after boot let the first notes of muted tracks through
+- Fix: RMX FX command - Tracks in song selection loop mode continued past the loop region
+- Fix: EQ View - Spectrum briefly showed the next instrument when switching, even if it used a different EQ or none
+- Fix: EQ View - Mix / FX EQ switched to bank 00 after a display reset
+- Improved: EQ View - Spectrum now includes left and right (was left only)
+- Improved: EQ View - Improved spectrum visuals
+
 2026-08-20 - Version 6.6.1
 - New: Mixer / Effect Settings - Tapping EDIT on a parameter captures its FX command so tapping EDIT in a Phrase or Table FX column inserts it (same as Instrument)
 - New: Song View - SELECT+EDIT a third time also clones instruments used in the selection, including INS and NXT commands
