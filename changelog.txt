@@ -1,6 +1,11 @@
+2026-08-24 - Version 6.6.2 A
+- Fix: A note without INST after OFF/KILL replayed the last instrument and restarted envelopes
+- Fix: Table notes after OFF/KILL retriggered the instrument
+- Fix: Macrosynth PLUCKED / similar models kept ringing after a new INST following note OFF
+- Fix: RMX was not working correctly when controlled track's playheads wrapped
+
 2026-08-22 - Version 6.6.2
 - Fix: ARP retriggered an instrument that had already been turned off with KILL/OFF
-- Fix: Sampler - STA on the same row as an instrument trigger did not restart envelopes
 - Fix: Firmware Update - Settings and project autosave are written after confirming, before restart
 - Fix: Mute/solo after boot let the first notes of muted tracks through
 - Fix: RMX FX command - Tracks in song selection loop mode continued past the loop region
