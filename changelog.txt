@@ -1,3 +1,17 @@
+2026-09-07 - Version 6.6.3
+- Improved: Recording - Mitigated audio dropouts while recording and playing back song at the same time
+- Fix: Phrase - A note or OFF command could possibly not stop an active RET retrigger
+- Fix: Phrase - REP "^^" indicators could scan disconnected phrase islands in previous chains
+- Fix: Phrase / Chain - Selection playback could loop incorrectly when using RMX or SNG
+- Fix: Table - Envelope decay commands could be skipped when running at TICFF
+- Fix: Aux Table - SED on TIC00 reset phrase randomness on every new note
+- Fix: Instrument switching could cause an audible discontinuity when the next instrument's DRY volume was 00
+- Fix: PSL pitch slide was not reset on instrument retrigger
+- Fix: ARP stopped on note OFF when using ADSR
+- Fix: Trig envelopes - could retain or use a previous value if no trigger occurred
+- Fix: Sampler - SLI could fail to trigger depending on SD card read performance
+- Fix: Right side info area - Notes remained displayed after their release became inaudible
+
 2026-08-24 - Version 6.6.2 A
 - Fix: A note without INST after OFF/KILL replayed the last instrument and restarted envelopes
 - Fix: Table notes after OFF/KILL retriggered the instrument
@@ -5,14 +19,14 @@
 - Fix: RMX was not working correctly when controlled track's playheads wrapped
 
 2026-08-22 - Version 6.6.2
+- Improved: EQ View - Spectrum now includes left and right (was left only)
+- Improved: EQ View - Improved spectrum visuals
 - Fix: ARP retriggered an instrument that had already been turned off with KILL/OFF
 - Fix: Firmware Update - Settings and project autosave are written after confirming, before restart
 - Fix: Mute/solo after boot let the first notes of muted tracks through
 - Fix: RMX FX command - Tracks in song selection loop mode continued past the loop region
 - Fix: EQ View - Spectrum briefly showed the next instrument when switching, even if it used a different EQ or none
 - Fix: EQ View - Mix / FX EQ switched to bank 00 after a display reset
-- Improved: EQ View - Spectrum now includes left and right (was left only)
-- Improved: EQ View - Improved spectrum visuals
 
 2026-08-20 - Version 6.6.1
 - New: Mixer / Effect Settings - Tapping EDIT on a parameter captures its FX command so tapping EDIT in a Phrase or Table FX column inserts it (same as Instrument)
