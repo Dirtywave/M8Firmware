@@ -1,3 +1,6 @@
+2026-09-10 - Version 6.6.3 A
+- Fix: MIDI instrument did not show notes on the right info area
+
 2026-09-07 - Version 6.6.3
 - Improved: Recording - Mitigated audio dropouts while recording and playing back song at the same time
 - Fix: Phrase - A note or OFF command could possibly not stop an active RET retrigger
