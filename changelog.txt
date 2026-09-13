@@ -1,3 +1,7 @@
+2026-09-13 - Version 6.6.3 B
+- Fix: Trig envelopes could occasionally miss a trigger depending on source and receiving track order
+- Fix: FMsynth - CLICK oscillator did not retrigger when using the last algorithm
+
 2026-09-10 - Version 6.6.3 A
 - Fix: MIDI instrument did not show notes on the right info area
 
