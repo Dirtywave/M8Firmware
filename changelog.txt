@@ -1,4 +1,7 @@
-2026-09-13 - Version 6.6.3 B&C
+2026-09-13 - Version 6.6.3 C
+- Fix: MIDI intruments CC values always sent on instrument trigger. Now only sent on song start, instrument change, or the CC value changes
+
+2026-09-13 - Version 6.6.3 B
 - Fix: Trig envelopes could occasionally miss a trigger depending on source and receiving track order
 - Fix: FMsynth - CLICK oscillator did not retrigger when using the last algorithm
 
